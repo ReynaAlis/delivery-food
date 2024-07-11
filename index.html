@@ -4,36 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+
     <title>Delivery Food</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-box">
-                <div class="header-logo logo">
-                    <img src="./images/logo.png" alt="Логотип Delivery Food">
-                </div>
-                <div class="header-controls">controls</div>
-            </div>
-        </div>
-    </header>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-box">
+                    <div class="header-logo logo">
+                        <img src="./images/logo.png" alt="Логотип Delivery Food">
+                    </div>
 
-    <main class="main">
-        <div class="container">container</div>
-    </main>
+                    <div class="header-controls">
+                        <button class="btn btn-primary">
+                            <img src="./images/icons/user.svg" alt="user">
+                            Войти
+                        </button>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-box">
-                <div class="footer-logo logo">
-                    <img src="./images/logo.png" alt="Логотип Delivery Food">
+                        <button class="btn btn-outline">
+                            <img src="./images/icons/shopping-cart.svg" alt="shopping-cart">
+                            Корзина
+                        </button>
+                    </div>
                 </div>
-                <div class="footer-nav">2</div>
-                <div class="footer-social">3</div>
             </div>
-        </div>
-    </footer>
+        </header>
+
+        <main class="main">
+            <section class="banner">
+                <div class="container">
+                    <div class="banner-item">
+                        <h2 class="banner-item--title">Онлайн-сервис <br> доставки еды на дом</h2>
+                        
+                        <p class="banner-item--subtitle">Блюда из любимого ресторана привезет курьер в перчатках, маске
+                            и с антисептиком</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="products">
+                <div class="container">
+                    <div class="products-header">
+                        <h3 class="products-header--title">Рестораны</h3>
+                        <input class="products-header--search" type="text" placeholder="Поиск блюд и ресторанов">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-box">
+                    <div class="footer-logo logo">
+                        <img src="./images/logo.png" alt="Логотип Delivery Food">
+                    </div>
+
+                    <nav class="footer-nav">
+                        <ul class="footer-nav--list">
+                            <li class="footer-nav--item">
+                                <a class="footer-nav--link" href="#!">Ресторанам</a>
+                            </li>
+                            <li class="footer-nav--item">
+                                <a class="footer-nav--link" href="#!">Курьерам</a>
+                            </li>
+                            <li class="footer-nav--item">
+                                <a class="footer-nav--link" href="#!">Пресс-центр</a>
+                            </li>
+                            <li class="footer-nav--item">
+                                <a class="footer-nav--link" href="#!">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="footer-social">
+                        <ul class="footer-social--list">
+                            <li class="footer-social--item">
+                                <a class="footer-social--link" href="#!">
+                                    <img src="./images/social/instagram.svg" alt="Instagram">
+                                </a>
+                            </li>
+                            <li class="footer-social--item">
+                                <a class="footer-social--link" href="#!">
+                                    <img src="./images/social/facebook.svg" alt="Facebook">
+                                </a>
+                            </li>
+                            <li class="footer-social--item">
+                                <a class="footer-social--link" href="#!">
+                                    <img src="./images/social/vk.svg" alt="Vk">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
