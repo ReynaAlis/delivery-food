@@ -88,7 +88,7 @@ body {
 }
 
 .banner-item {
-    background-image: url(./images/banner.png);
+    background-image: url(../images/banner.png);
     background-color: #fff1b8;
     background-repeat: no-repeat;
     background-size: contain;
@@ -182,7 +182,6 @@ body {
     padding: 20px 24px 34px 24px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-grow: 1;
 }
 
@@ -190,6 +189,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.products-card__description-row:nth-child(2) {
+    margin-top: auto;
 }
 
 .products-card__description-row:not(:last-child) {
